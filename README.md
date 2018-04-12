@@ -12,14 +12,19 @@ The following is a vulnerability that allows anyone the ability to enumerate a l
   
   ![](https://github.com/hareshseepersad/Week-7/blob/master/Username%20Enumeration.gif)
   
-1. (Required) XSS , Patched In: WordPress 4.7.4
+2. (Required) XSS ,Test Version: WordPress 4.1, Patched In: WordPress 4.7.4
 
 In older versions of Wordpress it is possible for a carefully crafted file name to execute cross site scripting. This is due to the lack of file name sanitation. 
 
 ![](https://github.com/hareshseepersad/Week-7/blob/master/Wordpress%20XSS.gif)
   
 
+3. (Required)XSS, Test Version: WordPress 4.2, patched WordPress 4.6.1:
 
+The following is a vulnerability that allows users with editor privileges to embed cross site scripting on their post. This may be used for privilege escalation if users of admin privileges were to view the page. This vulnerability was patched in 4.6.1.
+
+![](https://github.com/hareshseepersad/Week-7/blob/master/Wordpress%20XSS2.gif)
+  
 ## License
 
     Copyright [2018] [Seepersad]
